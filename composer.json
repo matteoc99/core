@@ -1,0 +1,20 @@
+{
+    "name": "matsta/core",
+    "description": "Core Api functionallities for laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Matsta\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "matteo",
+            "email": "matteo.cosi@live.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "orchestra/testbench": "8.0.x-dev"
+    }
+}
